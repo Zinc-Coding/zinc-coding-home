@@ -18,10 +18,13 @@
       color: white;
     }
   </style>
+  <script>
+    let beat = new Audio('/path/to/my/beat.mp3');
+  </script>
   <body>
     <div class="headerI">
-      <img src="img/favicon.ico"/>
-      <a href="zinc-coding.github.io" style="color=white;">Create</a>
+      <img src="img/favicon.ico" href="https://zinc-coding.github.io/zinc-coding-home/"/>
+      <a href="https://zinc-coding.github.io" style="color=white;">Create</a>
     </div>
     <div class="intro">
       <h2>Create games, animations, simulations and more in this online visual coding website!</h2>
@@ -30,7 +33,10 @@
     </div>
     <div class="main">
       <h1>LATEST UPDATES</h1>
-      <p>Yet to come!</p>
+      <img src="img/cutSound.png"/>
+      <h2>New Cut Sound</h2>
+      <p>A new sound, Cut is available now! It is just a sound of scissors cutting something.</p>
+      <button type="button" style="background-color: teal;" onclick="beat.play();">Click to hear the sound!</button>
       <h1>Recommended Projects to try</h1>
       <p>Yet to come!</p>
     </div>
